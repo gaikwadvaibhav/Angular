@@ -33,9 +33,9 @@ imgEv : EventEmitter<any>
   }
 
 
-  onclick(){
+  onClick(){
       this.imgEv.emit({
-      imgs :[
+      imgs:[
         'a.jpg','b.jpg','c.jpg'
       ]
     
@@ -44,3 +44,5 @@ imgEv : EventEmitter<any>
   }
 
 }
+
+
