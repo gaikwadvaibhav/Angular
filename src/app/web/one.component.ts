@@ -40,7 +40,6 @@ imgEv : EventEmitter<any>
       ]
     
   });
-
   }
 
 }
