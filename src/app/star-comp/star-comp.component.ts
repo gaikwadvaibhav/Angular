@@ -8,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StarCompComponent implements OnInit {
 
+    starsCount: number;
 
-  // reviews  = [
-  //   {rating : 4, review: `this is great product`},
-  //   {rating : 8, review: `this is great product, need proper documentation`},
-  // ];
+  reviews  = [
+    {rating : 4, review: `this is great product`},
+    {rating : 8, review: `this is great product, need proper documentation`},
+  ];
 
   constructor() { }
 
