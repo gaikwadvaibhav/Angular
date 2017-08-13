@@ -16,6 +16,9 @@ import { StarRatingModule } from 'angular-star-rating';
 import { StructDirectiveComponent } from './struct-directive/struct-directive.component';
 import { CustDirectiveDirective } from './struct-directive/cust-directive.directive';
 import {RatingModule} from 'ngx-rating';
+import { SidemenuComponent } from './sidemenu/sidemenu.component';
+import { SlideMenuModule } from 'cuppa-ng2-slidemenu/cuppa-ng2-slidemenu';
+
 
 
 
@@ -40,6 +43,8 @@ import {RatingModule} from 'ngx-rating';
     StructDirectiveComponent,
 
     CustDirectiveDirective,
+
+    SidemenuComponent,
     
     // FormsModule,
     
@@ -52,6 +57,7 @@ import {RatingModule} from 'ngx-rating';
     StarRatingModule,
     RatingModule,    
     FormsModule,
+    SlideMenuModule,
     
 
   ],
