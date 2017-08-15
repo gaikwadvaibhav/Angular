@@ -20,6 +20,8 @@ import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { SlideMenuModule } from 'cuppa-ng2-slidemenu/cuppa-ng2-slidemenu';
 // import { AsidemenuComponent } from './asidemenu/asidemenu.component';
 import { AsideModule}  from 'ng2-aside';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardSidebarComponent } from './dashboard-sidebar/dashboard-sidebar.component';
 
 
 
@@ -48,6 +50,10 @@ import { AsideModule}  from 'ng2-aside';
     CustDirectiveDirective,
 
     SidemenuComponent,
+
+    DashboardComponent,
+
+    DashboardSidebarComponent,
 
     // AsidemenuComponent,
     
