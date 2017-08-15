@@ -17,6 +17,12 @@ export class SidemenuComponent implements OnInit {
   private menuItemsArray: any[] = [ 
        {"title":"Electricity","link":"#"},
        {"title":"Mobile Bill","link":"#"},
+       {"title":"Shoes","link":"#"},
+       {"title":"Android Phones","link":"#"},
+       {"title":"Apple","link":"#"},
+       {"title":"Watches","link":"#"},
+       {"title":"Clothes","link":"#"},
+
        {"title":"Home and Kitchen","link":"#",
        "subItems":[
                    {"title":"Furniture","link":"#"},
@@ -31,14 +37,14 @@ export class SidemenuComponent implements OnInit {
        },
  ];
 
-  public onMenuClose(){
-    console.log("menu closed");
-  }
-  public onMenuOpen(){
-    console.log("menu Opened");
-  }
-  private onItemSelect(item:any){
-    console.log(item);
-  }
+  // public onMenuClose(){
+  //   console.log("menu closed");
+  // }
+  // public onMenuOpen(){
+  //   console.log("menu Opened");
+  // }
+  // private onItemSelect(item:any){
+  //   console.log(item);
+  // }
 
 }

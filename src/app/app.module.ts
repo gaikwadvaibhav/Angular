@@ -18,6 +18,9 @@ import { CustDirectiveDirective } from './struct-directive/cust-directive.direct
 import {RatingModule} from 'ngx-rating';
 import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { SlideMenuModule } from 'cuppa-ng2-slidemenu/cuppa-ng2-slidemenu';
+// import { AsidemenuComponent } from './asidemenu/asidemenu.component';
+import { AsideModule}  from 'ng2-aside';
+
 
 
 
@@ -45,6 +48,8 @@ import { SlideMenuModule } from 'cuppa-ng2-slidemenu/cuppa-ng2-slidemenu';
     CustDirectiveDirective,
 
     SidemenuComponent,
+
+    // AsidemenuComponent,
     
     // FormsModule,
     
@@ -58,10 +63,13 @@ import { SlideMenuModule } from 'cuppa-ng2-slidemenu/cuppa-ng2-slidemenu';
     RatingModule,    
     FormsModule,
     SlideMenuModule,
+    // AsideModule,
     
 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+ }
+ 
