@@ -3,9 +3,29 @@
   .navbar-custom {
     background-color:#4682C7;
     border-color: grey;
-    color:#ffffff;
+    /* color:#ffffff; */
     border-radius:0;
-    padding: 11px 10px;
+    padding: 9px 9px; 
+}
+.nav-navbar,li {
+  text-align: right;
+    color:white;
+    padding: 13px 12px; 
     
+}
 
+ul {
+float: right;   
+    
+}
+.rght{
+  text-align: right;
+  margin-left: 502px;
+}
+ 
+.brnd{
+  color:white;
+  margin-left: 50px;
+  
+  
 }

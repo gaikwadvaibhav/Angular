@@ -14,27 +14,28 @@ export class SidemenuComponent implements OnInit {
 
 
 
-  private menuItemsArray: any[] = [ 
-       {"title":"Electricity","link":"#"},
-       {"title":"Mobile Bill","link":"#"},
-       {"title":"Shoes","link":"#"},
-       {"title":"Android Phones","link":"#"},
-       {"title":"Apple","link":"#"},
-       {"title":"Watches","link":"#"},
-       {"title":"Clothes","link":"#"},
+  private menuItemsArray: any[] = [
+       {"title":"Search","link":"#"},
+       {"title":"My Bappa",'link':"#"},
+       {"title":"Food","link":'#'},
+       // tslint:disable-next-line:quotemark
+       {"title":" Emergency","link":"#"},
+       {"title":"Hospital","link":"#"},
+       {"title":"Police Station","link":"#"},
+       {"title":"About","link":"#"},
 
-       {"title":"Home and Kitchen","link":"#",
-       "subItems":[
-                   {"title":"Furniture","link":"#"},
-                   {"title":"Cookware","link":"#"},
-                  ]
-       },
-       {"title":"Car and Bike Accessories","link":"#",
-        "subItems":[
-                     {"title":"Tyres and Alloys","link":"#"},
-                     {"title":"Comfort and Safety","link":"#"},
-                    ]
-       },
+      //  {"title":"Home and Kitchen","link":"#",
+      //  "subItems":[
+      //              {"title":"Furniture","link":"#"},
+      //              {"title":"Cookware","link":"#"},
+      //             ]
+      //  },
+      //  {"title":"Car and Bike Accessories","link":"#",
+      //   "subItems":[
+      //                {"title":"Tyres and Alloys",'link':'#'},
+      //                {'title':'Comfort and Safety','link':'#'},
+      //               ]
+      //  },
  ];
 
   // public onMenuClose(){
